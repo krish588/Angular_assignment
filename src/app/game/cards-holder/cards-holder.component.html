@@ -1,0 +1,11 @@
+<div class="middle center flex">
+    <app-card [cardData]='cardsArray[0]' (sendEventToCardHolder) = 'cardClicked($event)' ></app-card>
+    <app-card [cardData]='cardsArray[1]' (sendEventToCardHolder) = 'cardClicked($event)' ></app-card>
+</div>
+<div class="middle center flex">   
+    <app-card [cardData]='cardsArray[2]' (sendEventToCardHolder) = 'cardClicked($event)' ></app-card>
+    <app-card [cardData]='cardsArray[3]' (sendEventToCardHolder) = 'cardClicked($event)' ></app-card>
+</div>
+
+<p class="miss">Score: {{ score }}</p>
+<p class="miss"> Misses: {{ misses }}</p>

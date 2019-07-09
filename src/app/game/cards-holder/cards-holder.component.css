@@ -1,0 +1,29 @@
+p {
+    font-size: 3rem;
+  }
+  
+  .container {
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+    margin: 0rem;
+  }
+  
+  .center {
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .middle {
+    
+  }
+
+  .miss{
+      display:flex;
+      justify-content: right;
+      align-items: baseline;
+      justify-content: space-around;
+  }
